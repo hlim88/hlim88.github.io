@@ -35,13 +35,13 @@ ul.posts li { list-style: none; }
 
 img.align_right
 {
-    display: block;
+    display: inline-block;
     margin: 0 0 10px 30px;
 }
 
 img.align_left
 {
-    display: block;
+    display: inline-block;
     margin: 0 30px 10px 0;
 }
 
