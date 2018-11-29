@@ -27,3 +27,27 @@ ul.posts li { list-style: none; }
 .cv address, .cv .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 .cv address, .cv p { font-size: 1.2em; }
 .cv .download { float: right; font-size: .8em; text-transform: uppercase; }
+
+/* image align */
+
+.align_right { float : right;}
+.align_left { float: left; }
+
+img.align_right
+{
+    display: block;
+    margin: 0 0 10px 30px;
+}
+
+img.align_left
+{
+    display: block;
+    margin: 0 30px 10px 0;
+}
+
+img.shadow
+{
+    -moz-box-shadow: -5px 5px 10px 0 #000;
+    -webkit-box-shadow: -5px 5px 10px 0 #000;
+    box-shadow: -5px 5px 10px 0 #000;
+}
