@@ -30,7 +30,7 @@ ul.posts li { list-style: none; }
 
 /* image align */
 
-.align_right { float : right;}
+.align_right { float: right; }
 .align_left { float: left; }
 
 img.align_right
